@@ -24,7 +24,7 @@ while win_flag == 0 do
   puts "あなた: #{hand[:"#{me}"]}を出しました"
   puts "相手: #{hand[:"#{rival}"]}を出しました"
   
-  victory_of_defeat = me.to_i - rival
+  victory_of_defeat = me - rival
   
   case victory_of_defeat
   when 0 then
